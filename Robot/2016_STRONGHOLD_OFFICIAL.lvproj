@@ -110,6 +110,10 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Drive over defenses.vi" Type="VI" URL="../SubVIs/Drive over defenses.vi"/>
+			<Item Name="Motor Ramp.vi" Type="VI" URL="../SubVIs/Motor Ramp.vi"/>
+		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -575,11 +579,9 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="Drive over defenses.vi" Type="VI" URL="../SubVIs/Drive over defenses.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Motor Ramp.vi" Type="VI" URL="../SubVIs/Motor Ramp.vi"/>
 			<Item Name="navX Library v2.lvlib" Type="Library" URL="../../../../../navx-mxp/labview/navX Library v2/navX Library v2.lvlib"/>
 			<Item Name="NI WPI Serial USB.lvlib" Type="Library" URL="../../../../../navx-mxp/labview/NI WPI/NI WPI Serial USB.lvlib"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
