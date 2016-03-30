@@ -228,7 +228,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="Prepare Joystick Data for Displays.vi" Type="VI" URL="../Prepare Joystick Data for Displays.vi"/>
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
 			<Item Name="WPI_CameraRead MJPG for Dashboard_EDIT.vi" Type="VI" URL="../Edited Dashboard VIs/WPI_CameraRead MJPG for Dashboard_EDIT.vi"/>
 			<Item Name="WPI_CameraGet Image From Controller_EDIT.vi" Type="VI" URL="../Edited Dashboard VIs/WPI_CameraGet Image From Controller_EDIT.vi"/>
