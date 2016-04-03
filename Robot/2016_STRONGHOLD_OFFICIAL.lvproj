@@ -698,8 +698,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Copy of FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/AppBuilder/AB_Classes/RTEXE/AB_RTEXE.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2015/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{D00DB448-8AA3-48D2-9974-89DA9E91461A}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{42BE17A2-1782-477E-8D23-AB4632249253}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
